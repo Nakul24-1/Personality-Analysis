@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html id="a">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=none">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<title>Know Your Personality</title>
+<link rel="shortcut icon" href="/home/jerry/Desktop/Karan FWT/webpage/images/first.png" type="image/icon type">
+
+<link rel="stylesheet" href="css/body.css">
+<link rel="stylesheet" href="css/carousel.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/modal.css">
+<link rel="stylesheet" href="css/details.css">
+<link rel="stylesheet" href="css/parallex.css">
+<link rel="stylesheet" href="css/about.css">
+
+<script type="text/javascript">
+function validateForm()
+{
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "")
+    {
+      alert("Name must be filled out");
+      return false;
+    }
+}
+
+function activ()
+{
+var aContainer = document.getElementbyId("divnav")
+var atags = aContainer.getElementsbyClassName("navy")
+for (var i = 0; i < atags.length; i++)
+{
+  atags[i].addEventListener("click", function()
+  {
+    var current = document.getElementsByClassName("navbaractive"); 
+    current[0].className = current[0].className.replace(" navbaractive", "");
+    this.className += " navbaractive";
+  });
+}
+}
+
+function val()
+	{
+		var x=document.getElementById('Form-email5').value;
+		var y=document.getElementById('Form-pass5').value;
+		
+		if (x == "")
+    {
+      alert("Username and Password can't be blank.")
+      return false;
+    }
+    else if (y == "")
+    {
+      alert("Username and Password can't be blank.")
+      return false;
+    }
+	}
+
+function val2()
+{
+	if (x=="karan@motwani.com" || x=="nakul@pacheriwala.com" || x=="arpita@mishra.com" || x=="rishabh@shetty.com")
+}
+
+(function() {
+('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
+
+
+
+</script>
+</head>
+
+<body style="margin: 0px">
+
+<div class="navbar" id="divnav">
+  <nav>
+  <a class="navy" href="#" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#darkModalForm"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a class="navy navbaractive" href="#" style="float:left;"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a class="navy" href="#PA" style="float:left;"><i class="fa fa-fw fa-question-circle-o"></i>What We Do</a>
+  <a class="navy" href="#search" style="float:left;"><i class="fa fa-fw fa-search"></i> Search Jobs</a> 
+  <a class="navy" href="#come" style="float:left;"><i class="fa fa-fw fa-briefcase"></i> Profiles</a> 
+  </nav>
+</div>
+
+<!--img id="logo" src="images\first.png" width="50" height="50"-->
+<a href="/home/jerry/Desktop/webpage/error404.html"> <img id="azure" src="images\azure.png" width="168" height="105"></a>
+
+<div class="back opaq">
+	<br>
+  <br>
+<div class="content-slider" style="color: #000">
+  <div class="slider">
+    <div class="mask">
+      <ul>
+        <li class="anim1">
+          <div class="quote">"It's beauty that captures your attention; personality that captures your heart."</div>
+          <div class="source"><i>- Oscar Wilde</i></div>
+        </li>
+        <li class="anim2">
+          <div class="quote">"I use bits and pieces of others personalities to form my own."</div>
+          <div class="source"><i>- Kurt Cobain</i></div>
+        </li>
+        <li class="anim3">
+          <div class="quote">"Personality is like a charioteer with two headstrong horses, each wanting to go in different directions."</div>
+          <div class="source"><i>- Martin Luther King, Jr.</i></div>
+        </li>
+        <li class="anim4">
+          <div class="quote">"Personality is an unbroken series of successful gestures."</div>
+          <div class="source"><i>- F. Scott Fitzgerald</i></div>
+        </li>
+        <li class="anim5">
+          <div class="quote">"Humility is no substitute for a good personality."</div>
+          <div class="source"><i>-  Fran Lebowitz</i></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="bgimg-1" id="PA">
+  <div class="captionspan">
+    <span class="border">
+  	  <font style="vertical-align: inherit;">
+  	   	<font style="vertical-align: inherit;">Personality Analysis</font>
+  	  </font>
+    </span>
+  </div>
+</div>
+
+<div style="color: beige;background-color:#111;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;" id="h3caption">
+  	<font style="vertical-align: inherit;">
+  		<font style="vertical-align: inherit;">What is Personality Analysis?</font>
+  	</font>
+  </h3>
+  <p><font style="vertical-align: inherit;">
+  	<font style="vertical-align: inherit;">Excelling at a challenging job often requires skills that go beyond the knowledge and intelligence of a person. The personality traits of an individual, including their ideologies, morals and principles, the motivation driving them and the temperament they possess usually play a significant role in their performance at the job. Personality tests are generally designed to measure these characteristic traits of the candidates applied for a certain job role.
+
+  	Personality tests may be a part of the assessment centers undertaken by some business organizations wherein candidates are evaluated to determine if their skills and capabilities are suitable for the job specifications. In the assessment centers, aptitude and reasoning tests may help measure the knowledge and intelligence of the candidates while personality tests may help analyze their behaviors. Following are a few of them.
+  </p>
+</div>
+
+<div class="bgimg-2">
+  <div class="captionspan">
+  	<span class="border" style="background-color:transparent;font-size:25px;color: #100;">
+  		<font style="vertical-align: inherit;">
+  			<font style="vertical-align: inherit;">The Craftsman</font>
+  		</font>
+  	</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+
+  <div style="color: beige;background-color:#111;text-align:center;padding:50px 80px;text-align: justify;">
+  <p><font style="vertical-align: inherit;">
+  	<h3 style="text-align:center;" id="h3caption">
+  		<font style="vertical-align: inherit;">
+  			<font style="vertical-align: inherit;">The Caliper Profile</font>
+  		</font>
+  	</h3>
+  	<font style="vertical-align: inherit;">The Caliper Profile is a type of personality tests that may be used for assessing the potential of individuals appearing in an assessment center. It usually measures the ambition the candidates have and factors inspiring them. However, the Caliper Profile test is available in online format only.</font>
+  </font>
+  </p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="captionspan">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #100;">
+  	<font style="vertical-align: inherit;">
+  		<font style="vertical-align: inherit;">The Visionary</font>
+  	</font>
+  </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color: beige;background-color:#111;text-align:center;padding:50px 80px;text-align: justify;">
+  <p><font style="vertical-align: inherit;">
+  	<h3 style="text-align:center;" id="h3caption">
+  		<font style="vertical-align: inherit;">
+  			<font style="vertical-align: inherit;">Talent Q Dimensions</font>
+  		</font>
+  	</h3>
+  	<font style="vertical-align: inherit;">Dimensions is a personality test type provided by the publisher Talent Q. The test usually helps measure one’s interpersonal skills, thought process and their emotional capabilities. These traits may be used to evaluate if you are right fit for a certain job position. Dimensions is administered online and consists of 160 statements that you will have to respond to in 25 minutes.</font>
+  </font>
+  </p>
+  </div>
+</div>
+
+<div class="bgimg-5" id="search" ng-app="myApp" ng-controller="myCtrl">
+	<form action="details.php" class="containerform" onsubmit="return validateForm()" method="post" required style="background-color: #111">
+    <h1 style="color: beige;">Applicant</h1>
+    <label style="color: beige; size: 25px;"><b>Welcome {{firstname}}.</b></label>
+    <br>
+    <label for="name" style="color: beige;"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="text1" ng-model="firstname" style="border-radius: 7px;" required></input>
+    <label for="email" style="color: beige;"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="text2" ng-model="eml" style="border-radius: 7px;" required></input>    
+    <label for="contact" style="color: beige;"><b>Contact</b></label>
+    <input type="number" placeholder="Enter Contact No." name="contact" id="number1" ng-model="con" style="border-radius: 7px;" required></input>
+    <br>
+    <label for="Gender" style="color: beige;"><b>Gender:</b></label>
+    <input type="radio" id="Male" name="gender" value="Male" checked />
+    <label for="Male" style="color: beige;">Male</label>
+    <input type="radio" id="Female" name="gender" value="Female" />
+    <label for="Female" style="color: beige;">Female</label>
+    <br>
+    <label for="Experience" style="color: beige;"><b>Experience:</b></label>
+    <select type="list" name="list" id="list">
+    <option><i>Dropdown</i></option>
+    <option value="1"><1 Year</option>
+    <option value="2">1-2 Years</option>
+    <option value="3">2-3 Years</option>
+    <option value="4">3-4 Years</option>
+    <option value="5">4-5 Years</option>
+    <option value="6">5+ Years</option>
+    </select>
+    <br>
+    <label for="Languages" style="color: beige;"><b>Languages:</b></label>
+    <input type="checkbox" id="Phase1" name="checklist[]" value="Go"/>
+    <label for="Phase1" style="color: beige;">Go</label>
+    <input type="checkbox" id="Phase2" name="checklist[]" value="C#"/>
+    <label for="Phase2" style="color: beige;">C#</label>
+    <input type="checkbox" id="Phase3" name="checklist[]" value="Ruby"/>
+    <label for="Phase3" style="color: beige;">Ruby</label>
+    <input type="checkbox" id="Future Development" name="checklist[]" value="Python"/>
+    <label for="Future Development" style="color: beige;">Python</label>
+    <br>
+    <label for="Profile" style="color: beige;"><b>Job Profile :</b></label>
+    <select type="list2" name="list2" id="list2">
+    <option><i>Select Profile</i></option>
+    <option value="1">Senior Project Manager</option>
+    <option value="2">Senior Product Manager</option>
+    <option value="3">Senior Software Architect</option>
+    <option value="4">Project Manager</option>
+    <option value="5">Product Manager</option>
+    <option value="6">Software Architect</option>
+    </select>
+    <br>
+    <label for="resume" style="color: beige;"><b>Resume</b></label>
+    <input type="file" id="myFile" name="filename">
+    <br>
+    <label for="sop" style="color: beige;"><b>SOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+    <input type="file" id="myFile2" name="filename2">
+    <br>    
+    <button type="submit" class="button" id="sbtn"><span>Submit</span></button>
+    <br>
+    </form>
+</div>
+
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope)
+{
+    $scope.firstname = "";
+    $scope.eml = "";
+    $scope.con = "";
+});
+</script>
+
+
+<div class="bgimg-6" id="come">
+  <div class="captionspan2">
+    <span class="border2">
+      <font style="vertical-align: inherit;">
+        <font style="vertical-align: inherit;">Our Team</font>
+      </font>
+    </span>
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="position:relative;">
+  
+  	<div class="container" >
+  	<div style="color: #444;background-color:#111;text-align:center;padding:50px 80px;text-align: justify; border-radius: 10px;">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <img src="images/e061.jpg">
+                <div class="team-content">
+                	<br>
+                	<br>
+                    <h3 class="title">Arpita Mishra</h3>
+                    <span class="post">Interaction Designer</span>
+                    <ul class="social">
+                        <li><a href="https://m.facebook.com/arpita.mishra.526?refid=46&__xts__%5B0%5D=12.%7B%22unit_id_click_type%22%3A%22graph_search_results_item_tapped%22%2C%22click_type%22%3A%22result%22%2C%22module_id%22%3A4046%2C%22result_id%22%3A100002712081166%2C%22session_id%22%3A%22013d20fe6d84d6d8d58ecbd767b71cb4%22%2C%22module_role%22%3A%22ENTITY_USER%22%2C%22unit_id%22%3A%22browse_rl%3A33afbed2-bd15-4241-98b7-6bb8d9029445%22%2C%22browse_result_type%22%3A%22browse_type_user%22%2C%22unit_id_result_id%22%3A100002712081166%2C%22module_result_position%22%3A0%7D" class="fa fa-facebook"></a></li>
+                        <li><a href="error404.html" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/arpitamishra128/" class="fa fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <img src="images/e066.jpg">
+                <div class="team-content">
+                	<br>
+                	<br>
+                    <h3 class="title">Rishabh shetty</h3>
+                    <span class="post">Front End Developer</span>
+                    <ul class="social">
+                        <li><a href="https://m.facebook.com/rishabhcs99?stype=ms&_rdr" class="fa fa-facebook"></a></li>
+                        <li><a href="https://mobile.twitter.com/rishabhcs99" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/rishabhcs99/" class="fa fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <img src="images/e070.jpg">
+                <div class="team-content">
+                	<br>
+                	<br>
+                    <h3 class="title">Nakul Pacheriwala</h3>
+                    <span class="post">Full Stack Deveopler</span>
+                    <ul class="social">
+                        <li><a href="https://m.facebook.com/nakul.pacheriwala.3?refid=46&__xts__%5B0%5D=12.%7B%22unit_id_click_type%22%3A%22graph_search_results_item_tapped%22%2C%22click_type%22%3A%22result%22%2C%22module_id%22%3A4046%2C%22result_id%22%3A100001019848426%2C%22session_id%22%3A%229b129c8e8ab3a473ce143a289f421a8b%22%2C%22module_role%22%3A%22ENTITY_USER%22%2C%22unit_id%22%3A%22browse_rl%3A45cf554e-c3d2-48f2-8b98-2059f9212006%22%2C%22browse_result_type%22%3A%22browse_type_user%22%2C%22unit_id_result_id%22%3A100001019848426%2C%22module_result_position%22%3A0%7D" class="fa fa-facebook"></a></li>
+                        <li><a href="https://mobile.twitter.com/arpitamishra128" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/nakulpacheriwala/" class="fa fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <img src="images/e079.jpg">
+                <div class="team-content">
+                	<br>
+                	<br>
+                    <h3 class="title">Karan Motwani</h3>
+                    <span class="post">Web Designer</span>
+                    <ul class="social">
+                        <li><a href="https://m.facebook.com/karangmotwani?ref_component=mbasic_home_header&ref_page=%2Fwap%2Fhome.php&refid=8" class="fa fa-facebook"></a></li>
+                        
+                        <li><a href="https://mobile.twitter.com/karangmotwani" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/motwani_jr/" class="fa fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>	
+</div>
+<div class="bgimg-4">
+  <div class="captionspan">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #100;">
+    <font style="vertical-align: inherit;">
+      <font style="vertical-align: inherit;"><b>© First Order, Inc.All Rights Reserved.</b></font>
+    </font>
+  </span>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a href="#a" style="color: #100"><img src="/home/jerry/Desktop/Karan FWT/webpage/images/up.png" style="width: 35px; height: 35px; color: black; opacity: 2;"></a>
+  </div>
+</div>
+
+
+<!--button style="margin-left: 50" onclick="window.location.href='file:///C:/Users/mpstme.student/Desktop/Validate/page1.html'">Return to Homepage</button-->
+
+<!-- Modal -->
+<div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog form-dark" role="document">
+    <!--Content-->
+    <div class="modal-content card card-image">
+      <div class="text-white rgba-stylish-strong py-4 px-5 z-depth-4">
+        <!--Header-->
+        <div class="modal-header text-center pb-4">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>LOG</strong> <a
+              class="green-text font-weight-bold"><strong> IN</strong></a></h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <!--Body-->
+        <div class="modal-body">
+          <!--Body-->
+          <div class="md-form mb-5">
+            <input type="email" id="Form-email5" class="form-control validate white-text" required placeholder="hello@world.com">
+            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
+          </div>
+
+          <div class="md-form pb-3">
+            <input type="password" id="Form-pass5" class="form-control validate white-text" required placeholder=".... ....">
+            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
+            <div class="form-group mt-4">
+              <input class="form-check-input" type="checkbox" id="checkbox624">
+              <label for="checkbox624" class="white-text form-check-label" style="align-self: center;">Accept the<a href="#" class="green-text font-weight-bold">
+                  Terms and Conditions</a></label>
+            </div>
+          </div>
+
+          <!--Grid row-->
+          <div class="row d-flex align-items-center mb-4">
+
+            <!--Grid column-->
+            <div class="text-center mb-3 col-md-12">
+              <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1" onclick="val()">Log In</button>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12">
+              <p class="font-small white-text d-flex justify-content-end">Don't Have an account? <a href="#come" class="green-text ml-1 font-weight-bold">
+                  Contact Us</a></p>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+        </div>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!-- Modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

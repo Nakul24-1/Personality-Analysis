@@ -1,0 +1,82 @@
+/* Applicant Form CSS */
+/* BOX container */
+* 
+{
+  box-sizing: border-box;
+}
+
+/* Add styles to the form container */
+.containerform
+{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  margin: 10px;
+  max-width: 475px;
+  max-height: 900px;
+  padding: 14px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+/* Full-width input fields */
+#text1, #text2, #number1
+  {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+#text1:focus, #text2:focus, #number1:focus
+{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.button
+{
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 25px;
+  transition: all 0.5s;
+  border-radius: 7px;
+}
+
+.button span
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after
+{  
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span
+{
+  padding-right: 25px;
+}
+
+.button:hover span:after
+{
+  opacity: 1;
+  right: 0;
+}
