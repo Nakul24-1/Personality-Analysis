@@ -9,10 +9,10 @@ import unicodedata
 
 def analyze(handle):
     file1 = open("myfile.txt","w")
-    consumer_key = 'DV0Qug6ENsbLuDBQBXJGXnaVz'
-    consumer_secret = 'P5sKHv4jRQ57xJaN1f6K7GYUxitOwYfLxQqEJkn64eQP7iHw4Y'
-    access_key = '752408357928067072-lr4xq5zhPLMelYNpfltTibAZBvmJ6q8'
-    access_secret = 'xJuJRnMNmjSMdiYxyvlmf0BYbJ1dHqFHuW2zaF1OEcsYj'
+    consumer_key = ''
+    consumer_secret = ''
+    access_key = ''
+    access_secret = ''
 
     
     # Authorization to consumer key and consumer secret 
