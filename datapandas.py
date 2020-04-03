@@ -7,7 +7,7 @@ from os.path import join, dirname
 import json
 import csv
 
-authenticator = IAMAuthenticator('W0dHJK7UL6B4LDaIM7124Gt50CSssoVOjMkXhrj7dnq1')
+authenticator = IAMAuthenticator('')
 personality_insights = PersonalityInsightsV3(
     version='2017-10-13',
     authenticator=authenticator
